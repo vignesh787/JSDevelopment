@@ -1,14 +1,27 @@
-const age  = 19;
+
+/*
+const age  = 15;
 
 const isOldEnough = age>=18;
+
 if(isOldEnough)
 {
     console.log(` Age is greater than 18 - ${age}`);
+}else{
+    console.log(`Too Young . Wait another - ${18 - age} years :)`);
+}
+let century;
+const birthYear = 2015;
+if(birthYear <=2000){
+     century= 20;
+}else{
+    century = 21;
 }
 
+console.log(`Person borh on ${century} th Century` )
 
 
-
+*/
 
 
 
@@ -40,33 +53,6 @@ lines`);
 */
 
 
-// BMI = mass/ height * height
-/*
-const markHeight = 1.69;
-const johnHeight = 1.95;
-const markMass = 78;
-const johnMass = 92;
-*/
-/*const markHeight = 1.88;
-const johnHeight = 1.76;
-const markMass = 95;
-const johnMass = 85;
-
-
-
-let markBMI,johnBMI,higherBMI;
-
-markBMI = markMass/(markHeight ** 2);
-johnBMI = johnMass/(johnHeight * johnHeight);
-
-console.log({markHeight,markMass,markBMI});
-
-console.log({johnHeight,johnMass,johnBMI});
-
-higherBMI = markBMI > johnBMI;
-
-console.log(higherBMI);
-*/
 
 /*
 // Operator Precedence 
