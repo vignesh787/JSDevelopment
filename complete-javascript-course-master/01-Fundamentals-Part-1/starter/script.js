@@ -1,5 +1,115 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
+
+//Equality Operators
+
+const age = 18;
+if(age === 18){
+    console.log('The person has turned 18! Strict');
+}
+if(age == '18'){
+    console.log('The person has turned 18! Loose');
+}
+
+//=== strict equality operator
+//== loose equality operator- does type co-ersion
+
+const favorite = Number(prompt("Whats your favorite Number ? "));
+console.log(favorite,typeof(favorite));
+if(favorite===23){
+    console.log(favorite+ ' is an amazing number');
+} else if(favorite ===7){
+    console.log(favorite + ' is also a cool number');
+} else{
+    console.log('Number is not 23 or 7');
+}
+
+if(favorite !== 23){
+    console.log("why not 23? ");
+}
+*/
+/*
+
+// 5 falsy values : 0, '', undefined , null , NaN
+
+// when converted to booean will turn false
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Vignesh'));
+console.log(Boolean({}));
+console.log(Boolean(null));
+
+//Javascript almost alwasys does typecoercion instead of explicit conversion 
+
+const money=10;
+if(money){ // 0 is converted to false
+    console.log("Don't spend it all");
+}else{
+    console.log("You should get a job");
+}
+
+let height=0; // undefined as no value is assigned. 
+if(height){ // undefined is converted to falsy value.
+            // 0 is also a falsy value - which will get converted to false. so this corner case also to be handled
+    console.log('YAY! Height is defined');
+}else{
+    console.log('Height is undefined');
+}
+*/
+/*Type Conversion / Type co-ercion*/
+/*
+const inputYear='1991';
+console.log(inputYear);
+console.log(Number(inputYear) + 18);
+
+/* NaN - is an invalid number when we try to perform operation which is not supported like converting a string to number 
+const inputName ='Vignesh';
+const age=34;
+console.log(String(age),age);
+console.log(Number(inputName));
+
+console.log('I am '+ 34 + ' Years Old');
+console.log('I am '+ String(34) + ' Years Old');
+
+console.log('23'-'10'-3) // Strings are converted to number
+console.log('23'+'10'+3) // numbers  are converted to strings on getting a plus operator
+console.log('23'*'2');
+console.log('23'/'2');
+
+/* Guess the output
+let n='1' + 1; // this is 11 not 2 as string concatenation
+n= n - 1 ; //11-1
+console.log(n) //1
+*/
+
+
+/*
+
+console.log("Hello World");
+console.log("I am going to rule the programming world!!!");
+console.log(" Vignesh will be the best programmer of the Organization!!!! :)");
+
 const age  = 15;
 
 const isOldEnough = age>=18;
