@@ -1,5 +1,69 @@
-// Boolean Operators - AND , OR and NOT Operators
+// Conditional operator
 
+const age = 15;
+
+age >= 18 ? console.log(' I like to drive car :) ') : console.log(' I like to ride cycle');
+
+const drink = age>18 ? 'wine' : 'water';
+//console.log(drink);
+
+//console.log(`i like to drink ${age > 18?'wine':'water'}`);
+
+//template literal can only have expression and never a statement.
+
+//console.log(` I am ${2021-1987} years old`);
+//expressions have return value ; statements do not have
+
+//switch statements
+/*
+const day  = 'friday';
+
+switch(day) {
+    case 'monday': //day==='monday'
+        console.log('Plan Course Structure');
+        console.log('Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log('Prepare Theory Videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write Code Examples');
+        break;
+    case 'friday':
+        console.log('Record Videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the Weekendoff');
+        break;
+    default:
+        console.log('This is not a valid day');
+}
+
+//const day='monday'
+
+if(day==='monday'){
+    console.log('Plan Course Structure');
+    console.log('Go to coding meetup');
+    
+}else if (day ==='tuesday'){
+    console.log('Prepare Theory Videos');
+     
+}else if(day === 'wednesday' || day ==='thursday'){
+    console.log("Write Code Examples")
+} else if (day ==='friday'){
+    console.log('Record Videos');
+}else if (day ==='saturday' || day ==='sunday'){
+    console.log('Enjoy the Weekendoff');
+
+}else {
+    console.log('This is not a valid day')
+}
+
+*/
+// Boolean Operators - AND , OR and NOT Operators
+/*
 const hasDriverLicense=true; //A
 const hasGoodVision=true; //B
 console.log(hasDriverLicense && hasGoodVision);
@@ -10,7 +74,7 @@ const shouldDrive = hasDriverLicense && hasGoodVision;
 
 if(hasDriverLicense  && hasGoodVision && !isTierd) console.log('Vignesh can drive');
 else console.log(' Some one else has to drive');
-
+*/
 
 /*
 
