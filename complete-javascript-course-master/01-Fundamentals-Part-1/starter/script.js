@@ -1,22 +1,15 @@
+// Boolean Operators - AND , OR and NOT Operators
 
+const hasDriverLicense=true; //A
+const hasGoodVision=true; //B
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasGoodVision);
+const isTierd = false ; //C
+const shouldDrive = hasDriverLicense && hasGoodVision;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if(hasDriverLicense  && hasGoodVision && !isTierd) console.log('Vignesh can drive');
+else console.log(' Some one else has to drive');
 
 
 /*
