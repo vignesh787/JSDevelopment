@@ -1,5 +1,25 @@
 'use strict';
 
+// calling a function from another function
+
+function cutFruitPieces(fruit){
+    return fruit * 4;
+}
+
+function fruitProcessor(apples , oranges ){
+    const applePieces  = cutFruitPieces(apples);
+    const orangePieces  = cutFruitPieces(oranges);
+    console.log(applePieces, orangePieces);
+    const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of  oranges`;
+    return juice; 
+   }
+
+console.log(fruitProcessor(2,3));
+
+
+
+
+/*
 
 const yearsUntilRetirement = (birthYear , firstName )=> {
     const age = 2021 - birthYear;
@@ -10,7 +30,7 @@ const yearsUntilRetirement = (birthYear , firstName )=> {
 
 console.log(yearsUntilRetirement(1987,'Vignesh'));
 console.log(yearsUntilRetirement(1988,'Harini'));
-
+*/
 // Arrow Functions
 const calcAge3 = birthYear => 2021 - birthYear;
 //console.log(calcAge3(2015));
