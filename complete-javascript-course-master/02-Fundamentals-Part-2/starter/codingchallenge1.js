@@ -1,8 +1,8 @@
-calcAverage = (score1 , score2 , score3) => {
+const calcAverage = (score1 , score2 , score3) => {
     return (score1+score2+score3)/3;
 }
 
-checkWinner = (avgDolphins, avgKoalas) => {
+const checkWinner = (avgDolphins, avgKoalas) => {
 
     if(avgDolphins > (2*avgKoalas)){
         console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas} )`);

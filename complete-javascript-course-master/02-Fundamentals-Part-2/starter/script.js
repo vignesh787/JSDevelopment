@@ -1,7 +1,81 @@
 'use strict';
 
-// calling a function from another function
 
+
+/*
+
+const friends = ['Muhilan','Alagar','Ranjith'];
+
+// add elements to last 
+const newlength = friends.push('Gopi Sivanesan');
+
+console.log(friends,newlength);
+// add elements to first
+friends.unshift('Raja');
+
+console.log(friends);
+
+// remove elements from last by default 
+
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+// remove first element from the array 
+
+friends.shift();
+console.log(friends);
+
+// array search 
+console.log(friends.indexOf('Muhilan'));
+
+console.log(friends.indexOf('Muhilan4'));
+
+// ES6 method for searching element in the array  with strict equality
+console.log(friends.includes('Muhilan'))
+
+console.log(friends.includes('Muhilan123'))
+
+if(friends.includes('Muhilan')){
+    console.log('You have a friend called Muhilan');
+}
+*/
+/*
+//Exercise
+
+const calcage = function(birthyear){
+    return 2021-birthyear;
+}
+
+const years = new Array(1956,1964,1987,1988,2015);
+
+for (let i=0;i<years.length;i++){
+    console.log('Current Age : '+calcage(years[i]) + ' birth year : '+years[i]);
+}
+
+
+const friend1 = 'Muhilan';
+const friend2 = 'Alagar';
+const friend3 = 'Ranjith';
+
+const friends = ['Muhilan','Alagar','Ranjith'];
+
+console.log(friends);
+console.log(friends[0],friends[1]);
+console.log(friends.length);
+console.log(friends[friends.length-1])
+
+friends[3]='Vikash';
+
+console.log(friends);
+
+//const years = new Array(1956,1964,1987,1988,2015);
+
+console.log(years);
+*/
+
+// calling a function from another function
+/*
 function cutFruitPieces(fruit){
     return fruit * 4;
 }
@@ -16,7 +90,7 @@ function fruitProcessor(apples , oranges ){
 
 console.log(fruitProcessor(2,3));
 
-
+*/
 
 
 /*
