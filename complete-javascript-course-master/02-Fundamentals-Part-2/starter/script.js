@@ -1,7 +1,133 @@
 'use strict';
+/*
+let dice= Math.trunc(Math.random() * 6) + 1;
+
+while(dice !=6){
+    console.log(`You rolled a ${dice}`)
+    dice= Math.trunc(Math.random() * 6) + 1;
+    if( dice === 6) console.log('Loop is about to end...' );
+}
+*/
+
+// for loops with arrays
+/*
+const vignesh = [
+    'Vignesh',
+     'Ramesh',
+     2021-1987,
+     'Full Stack Developer',
+     ['Muhilan','Alagar','Siva'],
+     true
+];
+
+const newArr = [];
+
+for(let i = 0; i < vignesh.length ;i++){
+    console.log(vignesh[i],typeof(vignesh[i]));
+    newArr.push(typeof(vignesh[i]));
+}
+
+console.log(newArr);
+*/
+
+
+/*
+const vignesh = {
+    firstName: 'Vignesh',
+    lastName: 'Ramesh',
+    birthYear : 1987,
+    hasDriversLicense : true,
+    job: 'Full Stack Developer',
+    friends : ['Muhilan','Alagar','Siva'],
+    // calcAge: function(birthYear){
+    //     return 2021-birthYear;
+    // }
+
+    // calcAge : function(){
+    //    // console.log(this)
+    //     return 2021- this.birthYear;
+    // }
+
+    calcAge : function () {
+        this.age = 2021-this.birthYear;
+        return this.age;
+    },
+
+    getSummary : function() {
+        return `${this.firstName} is a ${this.calcAge()} - year old 
+    ${vignesh.job} and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's License`;
+    }
+
+
+};
+
+console.log(vignesh.calcAge());
+console.log(vignesh.age);
+console.log(vignesh.age);
+console.log(vignesh.age);
+
+//"Vignesh is a 34-yeaar old teacher m and he has a/no driver licence. 
+
+console.log(vignesh.getSummary());
+
+
+console.log(vignesh['calcAge'](vignesh.birthYear));
+
+*/
 
 
 
+
+/*
+// Jonas has 3 friends and his best friend is Muhilan 
+
+const vignesh = {
+    firstName: 'Vignesh',
+    lastName: 'Ramesh',
+    age: 2021-1987,
+    job: 'Full Stack Developer',
+    friends : ['Muhilan','Alagar','Siva']
+};
+
+console.log(`${vignesh.firstName} has ${vignesh.friends.length} and his best friend is  ${vignesh.friends[0]} `);
+*/
+// Object literal Syntax
+/*
+const vignesh = {
+    firstName: 'Vignesh',
+    lastName: 'Ramesh',
+    age: 2021-1987,
+    job: 'Full Stack Developer',
+    friends : ['Muhilan','Alagar','Siva']
+};
+
+console.log(vignesh);
+console.log(vignesh.firstName);
+console.log(vignesh['lastName']);
+
+const nameKey = 'Name';
+
+console.log(vignesh['first' + nameKey]);
+console.log(vignesh['last' + nameKey]);
+
+const interestedin  = prompt('What do you want to know about Vignesh. Choose between firstName, lastName , age , job and friends');
+
+console.log(interestedin);
+//undefined is what we get when we try to access a property not defined .
+console.log(vignesh.interestedin);
+
+if(vignesh[interestedin]){
+console.log(vignesh[interestedin]);
+}else{
+    console.log('Wrong request!. Choose between firstName, lastName , age , job and friends');
+}
+
+vignesh.location ='India';
+vignesh['twitter'] ='vikki_vignesh87';
+
+console.log(vignesh);
+
+*/
 /*
 
 const friends = ['Muhilan','Alagar','Ranjith'];
